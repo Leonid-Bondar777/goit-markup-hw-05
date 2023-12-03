@@ -665,6 +665,11 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 /*=============footer-subscribe==============  */
 
+/*.subscribe-form {
+display: flex;
+align-items: center;
+    gap: 24px;}*/
+    
 .footer-subscribe {
    
         border: 1px;
