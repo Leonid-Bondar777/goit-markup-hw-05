@@ -938,7 +938,6 @@ border: 1px solid var(--IRIS, #4D5AE5);
 {
     
     background-color: var(--OCEAN, #404BBF);
-    stroke-width: 1px;
     border: none;
     fill: #F4F4FD;
 }
