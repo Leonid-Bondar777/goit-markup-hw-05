@@ -938,24 +938,26 @@ border: 1px solid var(--IRIS, #4D5AE5);
 }
 
 .modai-title-form-checkbox-button {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        padding: 16px 32px;
-        border-radius: 4px;        
-        gap: 10px;        
-        border: none;
-        min-width: 169px;
-        background-color: #4D5AE5;
-        cursor: pointer;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        text-align: left;
-        color: #ffffff;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+            display: block;
+            min-width: 169px;
+            height: 56px;
+            font-family: "Roboto", sans-serif;
+            cursor: pointer;
+            border: none;
+            padding: 16px 32px;
+            margin: auto;
+            margin-top: 16px;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            border-radius: 4px;
+            background-color: #4D5AE5;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
 .modai-title-form-checkbox-button-block {
     display: flex;
     justify-content: center;
