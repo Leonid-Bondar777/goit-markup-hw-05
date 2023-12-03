@@ -941,8 +941,9 @@ border: 1px solid var(--IRIS, #4D5AE5);
 .modai-title-form-check:checked 
 + .modai-title-form-checkbox-label 
 .checkbox-icon-box-form {
-    
+    border: none;
     opacity: 1;
+    fill: #F4F4FD;
 }
 
 
