@@ -909,16 +909,18 @@ margin-bottom: 24px;
         border-radius: 2px;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         margin-right: 8px;
+        
 
 }
 .modai-title-form-check:checked 
 + .modai-title-form-checkbox-label 
 >.checkbox-icon-box 
 {
+    
     background-color: var(--OCEAN, #404BBF);
     stroke-width: 1px;
-   border: none;
-   fill: #F4F4FD;
+    border: none;
+    fill: #F4F4FD;
 }
 .checkbox-icon-box-form{
     fill: #F4F4FD;
@@ -936,6 +938,7 @@ margin-bottom: 24px;
 + .modai-title-form-checkbox-label 
 > .checkbox-icon-box {
 border: 1px solid var(--IRIS, #4D5AE5);
+
 }
 
 
