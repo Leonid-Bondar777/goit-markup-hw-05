@@ -152,7 +152,7 @@ body {
   color: #404bbf;
 }
 
-.manu-list .current::after {
+.manu-link .current::after {
   content: '';
   position: absolute;
   left: 0;
